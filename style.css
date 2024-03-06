@@ -28,7 +28,7 @@ nav ul li a {
     color: #737373;
     font-size: 22px;
     text-decoration: none;
-    padding: 4px;
+    padding: 12px;
     border: 1px solid transparent;
 }
 
@@ -62,23 +62,42 @@ nav ul li a:hover {
     position: relative;
 }
 
-.main_page h1 {
+.animate-charcter {
     text-align: left;
     margin-top: -800px;
-    font-size: 50px;
+    font-size: 48px;
     margin-left: 150px;
     color: #000000;
     z-index: 6;
     position: absolute;
+    font-family: "Cabin", sans-serif;
+    font-weight: bolder;
+
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 69px;
 }
 
-.main_page p {
-    text-align: left;
-    font-size: 17px;
-    margin-left: 150px;
-    color: #000000;
-    margin-top: -650px;
-    position: absolute;
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 .market_btns{
@@ -99,6 +118,10 @@ nav ul li a:hover {
     margin-left: 500px;
 }
 
+.mockup{
+    position: relative;
+}
+
 .phone{
     margin-top: -950px;
     margin-left: 900px;
@@ -110,3 +133,52 @@ nav ul li a:hover {
     margin-left: 900px;
     position: absolute;
 }
+
+.first_cta{
+    margin-top: -850px;
+    margin-left: 750px;
+    position: absolute;
+}
+
+.second_cta{
+    margin-top: -620px;
+    margin-left: 1100px;
+    position: absolute;
+}
+
+.socials{
+    position: relative;
+    transition: transform 0.3s ease; /* Додаємо плавний перехід */
+}
+
+.socials img:hover {
+    transform: scale(1.2); /* Збільшуємо масштаб при наведенні */
+}
+
+.social_box{
+    margin-top: -200px;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin-left: 600px;
+    border-radius: 20px;
+}
+
+.facebook{
+    margin-top: -105px;
+    margin-left: 620px;
+    position: absolute;
+}
+
+.youtube{
+    margin-top: -105px;
+    margin-left: 720px;
+    position: absolute;
+}
+
+.linkedin{
+    margin-top: -105px;
+    margin-left: 820px;
+    position: absolute;
+}
+

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RideEasy</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,700,400;1,700,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="header">
@@ -15,29 +18,39 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Service</a></li>
             </ul>
         </nav>
         <div class="signup">
-            <button>Sign up</button>
+            <button>Contact us</button>
         </div>
     </section>
 
     <section class="main_page">
         <img class="main_image" src="/src/main.jpg">
-        <h1>Your Smooth Ride, <br> Just a Tap Away</h1>
-        <p> Embrace life's vastness, venture forth, and discover the <br> wonders waiting beyond. The world beckons; seize its <br> grand offerings now!</p>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h3 class="animate-charcter"> Your Smooth Ride, <br> Just a Tap Away</h3>
+              </div>
+            </div>
+          </div>
+ 
             <a class="appstore_link" href="#"> <img src="/src/Store/App Store.png"> </a>
             <a class="playmarket_link" href="#"> <img src="/src/Store/Google Play.png"> </a>
-
-            <img class="phone" src="/src/iphone.png">
-            <img class="avatar"src="/src/avatar.png">
-            <img class="first_cta" src="/src/Frame 1.png" >
-            <img class="secnd_cta" src="/src/Frame 2.png" >
+            <div class="mockup">
+                <img class="phone" src="/src/iphone.png" draggable="false" alt="phone">
+                <img class="avatar"src="/src/avatar.png" draggable="false" alt="man">
+                <img class="first_cta" src="/src/Frame 1.png" draggable="false" alt="call to action">
+                <img class="second_cta" src="/src/Frame 2.png" draggable="false" alt="call to action">
+            </div>
             
+            <div class="socials">
+                <h1 class="social_box"></h1>
+                <a href="#"><img class="facebook" src="/src/facebook.png" draggable="false" alt="facebook"></a>
+                <a href="#"><img class="youtube" src="/src/youtube.png" draggable="false" alt="youtube"></a>
+                <a href="#"><img class="linkedin" src="/src/linkedin.png" draggable="false" alt="linkedin"></a>
+            </div>
     </section>
-    
-
-    <script src="index.js"></script>
 </body>
 </html>

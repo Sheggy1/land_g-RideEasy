@@ -54,11 +54,59 @@ nav ul li a:hover {
 }
 
 
-.main_page img {
+.main_image {
     object-fit: cover;
     max-width: 100%;
     height: auto;
-    opacity: 32%;
     border-radius: 10px;
-    display: block;
+    position: relative;
+}
+
+.main_page h1 {
+    text-align: left;
+    margin-top: -800px;
+    font-size: 50px;
+    margin-left: 150px;
+    color: #000000;
+    z-index: 6;
+    position: absolute;
+}
+
+.main_page p {
+    text-align: left;
+    font-size: 17px;
+    margin-left: 150px;
+    color: #000000;
+    margin-top: -650px;
+    position: absolute;
+}
+
+.market_btns{
+    margin-left: 140px;
+    margin-bottom: -800px;
+    position: absolute;
+}
+
+.appstore_link{
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 200px;
+}
+
+.playmarket_link{
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 500px;
+}
+
+.phone{
+    margin-top: -950px;
+    margin-left: 900px;
+    position: absolute;
+}
+
+.avatar{
+    margin-top: -600px;
+    margin-left: 900px;
+    position: absolute;
 }
